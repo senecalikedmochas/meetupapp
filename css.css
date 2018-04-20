@@ -1,0 +1,10 @@
+public void WantToBuildDotNetChatbot(bool wantToBuildDotNetChatbot)
+{
+    if (wantToBuildDotNetChatbot)
+    {
+        DateTime d = new DateTime (2018, 04, 20, 05, 30, 00, DateTimeKind.Utc);
+        Console.WriteLine("Attend Tech Bytes Virtual Workshop");
+        Console.WriteLine(d.ToLongTimeString());
+        Redirect("http://www.twitch.tv/aws");
+    }
+}
